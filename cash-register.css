@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: rgb(120, 56, 3);
+    --secondary-color: rgb(255, 154, 71);
+}
+
+.container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: bisque;
+    background-image: url("./piggybank.png");
+    background-position: 60vw 10vh;
+    background-size: 50rem;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    color: var(--primary-color);
+    margin-bottom: 0.1rem;
+}
+
+.description {
+    margin-bottom: 1.5rem;
+    font-size: larger;
+}
+
+.input-label {
+    font-weight: 600;
+    font-size: larger;
+    margin: 1rem;
+}
+
+input {
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid rgb(160, 85, 23);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    width: 15vw;
+}
+
+#check {
+    margin: 1rem auto 2rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    color: white;
+    font-weight: 400;
+    border: 1px solid var(--primary-color);
+    font-size: medium;
+}
+
+#check:hover {
+    background-color: var(--secondary-color) ;
+    color: black;
+}
+
+.change-table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 2px solid var(--primary-color);
+    width: 0%;
+    border-collapse: collapse;
+    padding: 0.5rem 1rem;
+}
+
+footer {
+    padding: 2rem;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    padding-inline-start: 0px;
+}
+
+.list-style {
+    list-style: none;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.list-style-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}

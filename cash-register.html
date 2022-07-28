@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="./cash-register.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Cash Register Manager</h1>
+    <p class="description">Enter the bill amount & cash given by the customer & know min no. of notes to return.</p>
+
+    <label class="input-label" for="bill-amount">Bill Amount:</label>
+    <input type="text" id="bill-amount" />
+    <label class="input-label" for="cash-given">Cash Given:</label>
+    <input type="text" id="cash-given" />
+    <button id="check">Check</button>
+    <p id="error-msg"></p>
+    <table class="change-table">
+      <caption class="input-label">Return Change</caption>
+      <tr>
+        <th>No. of notes</th>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+        <td class="no-of-notes"></td>
+      </tr>
+      <tr>
+        <th>Note</th>
+        <td>2000</td>
+        <td>500</td>
+        <td>100</td>
+        <td>20</td>
+        <td>10</td>
+        <td>5</td>
+        <td>1</td>
+      </tr>
+    </table>
+
+  </div>
+
+  <footer>
+    <ul class="list-style">
+      <li class="list-style-inline">
+        <a href="https://twitter.com/0xbasantani" target="_blank"><img src="./twitter1.svg"></a>
+      </li>
+      <li class="list-style-inline">
+        <a href="https://github.com/Vai8hav" target="_blank"><img src="./github.svg"></a>
+      </li>
+      <li class="list-style-inline">
+        <a href="https://www.linkedin.com/in/vaibhavbasantani/" target="_blank"><img src="./linkedin.svg"></a>
+      </li>
+    </ul>
+  </footer>
+
+</body>
+<script src="./cash-register.js"></script>
+</html>
